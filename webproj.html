@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://marketplace.canva.com/EAE0TUiVOM4/1/0/1600w/canva-travel%2C-tourism-agency-logo-design-template-zhNB5gPn4j8.jpg" width= 50px alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#explore">Explore</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Guidedpaths
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Top-visited</a></li>
+                  <li><a class="dropdown-item" href="#">Economical trips</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Expensive Tours</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1661186669/top-10-tourist-attractions-in-india-taj-mahal-building/top-10-tourist-attractions-in-india-taj-mahal-building.jpg" class="d-block w-100 image-fluid" height=560vh alt="tajmahal">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>TajMahal</h5>
+              <p>one of the 7 wonders situated in Agra, New-delhi,  Tajmahal is significance of Love</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.pexels.com/photos/14844302/pexels-photo-14844302.jpeg" class="d-block w-100 image-fluid" height=560vh alt="MUNNAR">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5>MUNNAR HILLSTATION</h5>
+              <p>Most-popular hillstation in south-india</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.pexels.com/photos/14064751/pexels-photo-14064751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100 image-fluid" height=560vh alt="Rishikesh">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5>Rishikesh</h5>
+              <p>A photography from the beautiful Rishikesh in Uttarkhand</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- container -->
+    <div class="container-fluid">
+      <!-- Explore -->
+       <div class="row" id="explore">
+         <div class="col-12">
+          <h2 class="display-5 text-center mt-5 mb-2">Explore</h2>
+         </div>
+       </div>
+       <div class="row justify-content-evenly pt-3 pb-3">
+        <div class="col-md-3 text-center mt-3">
+          <h1 class="text-primary"><img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2pvYjkzNy02Mi5qcGc.jpg" width="100px" alt="india"></h1>
+          <h5>
+            My travel agency has 3Maajor coutry parteners first one is india, we can provide touist visa and a ambassdor in India.
+          </h5>
+        </div>
+
+        <div class="col-md-3 text-center mt-3">
+          <h1 class="text-success">
+            <img src="https://w7.pngwing.com/pngs/693/111/png-transparent-american-flag-united-states-flag-usa-thumbnail.png" width=100px alt="america">
+          </h1>
+          <h5>
+            My travel agency has 3Maajor coutry parteners first one is America, we can provide touist visa and a ambassdor in america.
+          </h5>
+        </div>
+        <div class="col-md-3 text-center mt-3">
+          <h1 class="text-warning">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQePODBkF7_ZfPuuL9FipNyiCVpRG_7l8pAVA&s" width=100px height="70px"
+             alt="australia">
+          </h1>
+          <h5>
+            My travel agency has 3Maajor coutry parteners first one is australia, we can provide touist visa and a ambassdor in australia.
+          </h5>
+        </div>
+       </div>
+       <hr>
+      <!-- strength of company -->
+       <div class="row justify-content-evenly mt-3 pb-5">
+        <div class="col-md-5 pt-3">
+          <img class=img-fluid src="https://imgs.search.brave.com/y5yU_d0YPhLf7AQbEqJVPNRl9OqLn4VfXyWfDxaBXqs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by90/cmF2ZWwtdHJpcC12/YWNhdGlvbi1ob2xp/ZGF5LWpvdXJuZXkt/dG91cmlzbV81Mzg3/Ni0xMjUwNzguanBn/P3NpemU9NjI2JmV4/dD1qcGc" alt="">
+        </div>
+        <div class="col-md-5 pt-3">
+        <h5  class="mt-3">Passportmanagement</h5>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success" style="width: 75%"></div>
+        </div>
+        <h5 class="mt-3">Market Analytics</h5>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-info" style="width: 80%"></div>
+        </div>
+        <h5 class="mt-3">sales management</h5>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-warning" style="width: 85%"></div>
+        </div>
+        <h5 class="mt-3">consultancy services</h5>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-danger" style="width: 90%"></div>
+        </div>
+      </div>
+      </div>
+      </div>
+    <!-- contact us section -->
+     <div class="row justify-content-evenly bg-secondary bg-gradient pt-3 pb-3" id="contact">
+      <div class="col-md-5 ml-3">
+        <h3>Contact-Form</h3>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Desribe your Query</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <input class="btn btn-primary" type="submit" value="Submit">
+      </div>
+      <div class="col-md-5">
+        <!-- Google maps and adress -->
+         <h3>Address</h3>
+         <p>
+          2040 Lake To Lake Rd <br>
+          Stanley, New York(NY), 14561<br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+          </svg>:(585) 526-2067
+          <br><br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d135747.61548603646!2d-77.2178014224314!3d42.82623497013541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0dc0106927597%3A0xc01eb7f0d82b11bd!2sStanley%2C%20NY%2014561%2C%20USA!5e0!3m2!1sen!2sin!4v1718294359822!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+      </div>   
+     </div>
+     <!-- FAQ -->
+      <div class="row justify-content-evenly text-center" id="faq">
+        <h3 class="text-center mt-3">FAQ</h3>
+        <div class="col-mod-10">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     <!-- footer -->
+     <footer>
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </footer>
+      </div>
+     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
